@@ -31,19 +31,23 @@ win.connect("destroy", Gtk.main_quit)
 def on_click(widget):
     global Q_Label
     global A_Label
-    win.remove(Board)
     back.connect("clicked", on_return)
     words=widget._value.split(":")
+    #parse through the questions dataset and find the right question
     Q_Label.set_text(data.questions[str(words[0])][str(words[1])])
+    #parse through the answers dataset and select the right answer
     A_Label.set_text(data.answers[str(words[0])][str(words[1])])
+    #set the label at the top
     H_Label.set_text(str(words[0])+" for " + str(words[1]))
-    ctx=widget.get_style_context()
+    #hide the board, and throw up the question window
+    win.remove(Board)
     win.add(Question)
     Question.show_all()
-    ctx.add_class("answered")
 
 def on_return(widget):
+    #hide the question window, and throw up the board again
     win.remove(Question)
     win.add(Board)
+    #make sure the next time you go to a question it doesn't show the answer first
     stack.set_visible_child(Q_Label)
 

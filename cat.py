@@ -7,8 +7,7 @@ import windows
 class Category:
     def __init__(self, name):
         self.vbox=Gtk.VBox(spacing=6)
-        self.Title=Gtk.Label()
-        self.Title.set_text(str(name))
+        self.Title=Gtk.Label(str(name))
         self.vbox.pack_start(self.Title, True, True, 0)
         self.vals=[i for i in range(100,600,100) ]
         self.Buttons= [Gtk.ToggleButton() for i in range(5)]

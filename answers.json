@@ -1,0 +1,42 @@
+{
+	"concepts":
+	{
+		"100":"Tail Recursion specifies that the recursive element is the last element of the function. Standard Recursion doesn't have that specified",
+		"200":"SQL (or Access)",
+		"300":"Compiler",
+		"400":"WORA\nObject-Oriented\nImperitive",
+		"500":"Lexer\nParser\nGenerator"
+	},
+	"standards":
+	{
+		"100":"ASCII",
+		"200":"UTF-8",
+		"300":"ANSI",
+		"400":"IEEE-754",
+		"500":"Assembly"
+	},
+	"bugs":
+	{
+		"100":"This compiles, but prints nothing",
+		"200":"This causes a compiler error, you can't use \"1\" in a for loop",
+		"300":"This prints the number 418",
+		"400":"This doesn't compile, \"0\" before a constant interprets the constant as being in Octal. 9 is not valid octal",
+		"500":"This compiles just fine. the output for A is garbage, but b=9"
+	},
+	"os":
+	{
+		"100":"cd",
+		"200":"MSDOS",
+		"300":"GCC, CLANG",
+		"400":"Multics",
+		"500":"ED, it was a single-line editor"
+	},
+	"random":
+	{
+		"100":"Adjacency Matrix",
+		"200":"Markov Chains",
+		"300":"Data race",
+		"400":"Brainfuck",
+		"500":"Waifu2x"
+	}
+}

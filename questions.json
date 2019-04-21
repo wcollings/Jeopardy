@@ -1,0 +1,43 @@
+{
+	"concepts":
+	{	
+		"100":"What is Tail Recursion, and how is it different from standard recursion?",
+		"200":"Databases are essential to modern computing, they allow computers to store multitudes of data on large numbers of users and index that set quickly. Name the mot common databasing system in play today",
+		"300":"Which came first, the compiler or the interpreter?",
+		"400": "What programming paradigms is Java based on?",
+		"500":"Compilers are complicated beasts, that few people today feel the need to dig into. Prove to me that you're above the rest! Name at least 2 of the 3 parts of a compiler"
+	},
+	"standards":
+	{
+		"100":"This was one of the first widely-known character encodings, standardized in the 1960s and containing 128 characters.",
+		"200":"After the globalization of technology started to take root, we realized that many more alphabets and characters needed to be represented. This led to the development of Unicode. What's the most common Unicode standard in use today?",
+		"300":"While it was originally developed in Bell Labs and spread through Unix, C has now been ported to as many devices as exist in this day and age.\nIt therefore must be regulated by some outside committee. Can you tell me what the name of this organization is?",
+		"400":"First penned in 1985, this standard defines how Floating Point numbers are represented internally to a computer. Name this standard!",
+		"500":"Although many know of this language family, few realize that it's in fact a family and not a single standardized language. It takes dedication and to make it even function, but when it does, man does it fly. To those who choose to tear their own hair out, we salute you. To what am I referring?"
+	},
+	"bugs":
+	{
+		"100":"Does this compile and/or what does it print?\n\n#include<stdio.h>\n\nvoid main(void)\n{\n\tprintf(\"%c\",\"Hello world!\");\n}",
+		"200":"class Test {\n\tpublic static void main(String[] args) {\n\t\tfor(int i = 0; 1; i++) {\n\t\t\tSystem.out.println(\"Hello\");\n\t\t\tbreak; \n\t\t}\n\t}\n}",
+		"300":"public class A {\n\tpublic static void main(String[] args)\n\t{\n\t\tSystem.out.println('j' + 'a' + 'v' + 'a');\n\t}\n}",
+		"400":"void main(void)\n{\n\tint number=09;\n\tprintf(\"%+-3.1f\\n\",(float)number);\n}",
+		"500":"#include<stdio.h>\nint main()\n{\n\tint a, b = 10;\n\ta = b---\n\tprintf(\"a = %d, b = %d\", a, b); \n\treturn 0;\n}"
+	},
+	"os":
+	{
+		"100":"Before we had fancy GUIs to take all the guesswork out of it, we used terminals or terminal emulators to manipulate our computers. While Unix and Windows have different naming conventions for many of their commands, there is one that is universal: the command to move from one directory to another. Tell me this command",
+		"200":"Microsoft was founded in 1975, 10 years before the release of Windows 1.0. What was Windows' pregenitor called?",
+		"300":"In the world of programming and debugging, GNU+Linux is the favored environment of many professionals. Can you name the two most popular C compilers available for the platform?",
+		"400":"What was the first portable OS? Developed as a collaboration between MIT and Bell Labs in the 1960s",
+		"500":"What was the original text editor shipped with Unix?"
+	},
+	"random":
+	{
+		"100":"You have a pile of objects, and you know that some of them fit together and some of them don't. You want to be able to document what pairs of objects relate and which ones don't. What data structure could you use to hold that information?",
+		"200":"This is an algorithm used to predict future states based on current and past inputs. It is used in auto-predict keyboards and name generators most famously. What's it called?",
+		"300":"Say you have a bunch of threads running in the same program, all of them running through the same array and manipulating some data with that. You don't want the threads to be processing the same element twice, especially not at the same time. What is it called if two of your threads do exactly that, if they both try to process the same data and both try to report their results at the same time?",
+		"400":"This was one of the first and largest esoteric languages, it consists of 8 symbols and while it is turing complete it's a pain to work with. There have been many adaptations and derivations of it over the years but this is still the first that comes to mind for many of us. What's this language?",
+		"500":"While it has many useful applications, and was revolutionary, this application of Deep Convolutional Neural Networks was originally pioneered for use on pictures of anime girls. It is an image-scaling and noise reduction program that was first released in 2015. Sometimes the coolest things come out of the weirdest places. Name this algorithm!"
+	}
+}
+
